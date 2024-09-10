@@ -10,6 +10,7 @@ import Services from "./components/Services";
 import Photo from "./components/Photo";
 import People from "./components/People";
 import Collab from "./components/Collab";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <People />
         <Collab />
       </main>
+      <Footer />
     </div>
   )
 
