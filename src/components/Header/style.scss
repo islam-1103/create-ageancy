@@ -1,0 +1,32 @@
+.header {
+    padding-top: 72px;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+        gap: 50px;
+    }
+
+    &__link {
+        color: #e2e2e2;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        transition: 0.2s;
+
+        &:hover {
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.services {
+    color: #e2e2e2;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    .row {
+        display: flex;
+        gap: 150px;
+        justify-content: space-between;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    &__subtitle {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+    }
+
+    &__title {
+        font-family: 'Nunito', sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 71.5px;
+        letter-spacing: 0.003em;
+        margin-top: 32px;
+    }
+
+    &__description {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.01em;
+        margin: 18px 0 36px;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        max-width: fit-content;
+        margin-left: auto;
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0.01em;
+        color: #e2e2e2;
+        text-decoration: none;
+        gap: 15px;
+    }
+
+    .row.col-6 {
+        flex-wrap: wrap;
+        gap: 40px;
+
+        .col-6 {
+            width: 46%;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        border: 1px solid #ffffff1A;
+        padding: 35px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        transition: 0.3s;
+
+        &:hover {
+            box-shadow: 4px 4px 30px 0px #867e7e1e;
+            background-color: #0b0f15;
+        }
+
+        &-title {
+            font-family: "Quicksand", sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 34px;
+            letter-spacing: 00.01em;
+            text-align: center;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+
+        &.white {
+            background-color: #fff;
+        }
+
+        &.red {
+            background: #ff4646;
+        }
+
+        &.green {
+            background: #8eea77;
+        }
+
+        &.yellow {
+            background: #ffb21a;
+        }
+    }
+}
