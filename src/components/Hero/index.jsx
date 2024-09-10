@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button";
 import "./style.scss"
 import Poster from "../../assets/hero.png"
-import star from "../../assets/star.svg"
+import star from "../../assets/Star.svg"
 import people from "../../assets/peple-hero.svg"
 
 const Hero = () => {
