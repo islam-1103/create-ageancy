@@ -9,6 +9,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Photo from "./components/Photo";
 import People from "./components/People";
+import Collab from "./components/Collab";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Services />
         <Photo />
         <People />
+        <Collab />
       </main>
     </div>
   )
