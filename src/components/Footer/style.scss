@@ -1,5 +1,5 @@
 .footer {
-    padding: 130px;
+    padding: 130px 0 35px;
     background-color: #383638;
 
     &__row {
@@ -21,11 +21,11 @@
         font-weight: 300;
         line-height: 23.41px;
         color: #e2e2e2;
-        margin: 40px 0;
+        margin: 25px 0;
     }
 
     &__social {
-        margin-top: 77px;
+        margin-top: 75px;
 
         ul {
             display: flex;
