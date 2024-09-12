@@ -122,6 +122,9 @@
 
         .row {
             flex-wrap: wrap;
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
 
             .col-6 {
                 width: 100%;

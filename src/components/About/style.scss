@@ -73,6 +73,7 @@
 
 @media (max-width: 768px) {
     .about {
+        padding-top: 100px;
         &__row {
             flex-wrap: wrap-reverse;
         }
