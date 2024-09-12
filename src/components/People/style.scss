@@ -53,7 +53,7 @@
         line-height: 34px;
         letter-spacing: 0.01em;
         color: #e2e2e2;
-        margin:  55px 120px 0 120px;
+        margin: 55px 120px 0 120px;
     }
 
     &__txt {
@@ -78,6 +78,36 @@
         color: #e2e2e2;
         opacity: 80%;
         margin: 140px 30px 0 40px;
-        
+
+    }
+}
+
+@media (max-width: 768px) {
+    .people {
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 17.5px;
+            letter-spacing: 0.01em;
+        }
+
+        &__title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32.74px;
+            letter-spacing: 0.003em;
+        }
+
+        &__content {
+            .col-4 {
+                &:first-child {
+                    display: none;
+                }
+
+                &:last-child {
+                    display: none;
+                }
+            }
+        }
     }
 }

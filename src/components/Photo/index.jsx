@@ -29,15 +29,21 @@ const Photo = () => {
                     </div>
                 </div>
                 <div className="photo__collag">
-                    <img src={photoone} alt="" />
-                    <h4>Design Byte App</h4>
-                    <img className="photo__second" src={phototwo} alt="" />
-                    <h3>Cloud App</h3>
-                    <img src={photothree} alt="" />
-                    <h5>Design Furniture App</h5>
+                    <div className="photo__column">
+                        <img src={photoone} alt="" />
+                        <h4>Design Byte App</h4>
+                    </div>
+                    <div className="photo__column">
+                        <img src={phototwo} alt="" />
+                        <h4>Cloud App</h4>
+                    </div>
+                    <div className="photo__column">
+                        <img src={photothree} alt="" />
+                        <h4>Design Furniture App</h4>
+                    </div>
                 </div>
                 <Button className="outline photo__click">See All Portfolio</Button>
-                
+
             </div>
         </section>
     )

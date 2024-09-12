@@ -30,3 +30,16 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .header {
+        &__nav {
+            display: none;
+        }
+
+        .outline { 
+            display: none;
+        }
+
+    }
+}

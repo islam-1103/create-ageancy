@@ -3,7 +3,7 @@
 
     &__row {
         display: flex;
-        gap: 160px;
+        gap: 100px;
     }
 
     &__title {
@@ -30,5 +30,6 @@
     &__image {
         width: 606px;
         height: 379px;
+        max-width: 100%;
     }
 }

@@ -18,14 +18,14 @@ const People = () => {
                         <p className="people__description">There are many variations passages of Lorem 
                         Ipsum majority some by words which don't look . </p>
                     </div>
-                    <div className="col-4 people__top">
+                    <div className="col-4 people__top-none">
                         <img className="people__image" src={rose} alt="" />
                         <h4 className="people__text">Angel Rose</h4>
                         <h5 className="people__txt">Creative Manager</h5>
                         <p className="people__description">There are many variations passages of Lorem 
                         Ipsum majority some by words which don't look . </p>
                     </div>
-                    <div className="col-4 people__top">
+                    <div className="col-4 people__top-none">
                         <img className="people__image" src={rose} alt="" />
                         <h4 className="people__text">Angel Rose</h4>
                         <h5 className="people__txt">Creative Manager</h5>
